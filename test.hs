@@ -1,9 +1,7 @@
 sumNumbers a b = a + b
 
-isPositive x = if (x > 0)
-        then True
-        else False
-
+isPositive x = x > 0
+        
 getValueByIndex list index = if (index < length list)
         then list !! index
         else 0
